@@ -10,59 +10,84 @@
     <fuel-fraction>1.0</fuel-fraction>
 
     <startup>
-      <splash-texture>Aircraft/DH-106/dh106-splash.png</splash-texture>
+      <splash-texture>Aircraft/Comet-J/dh106-splash.png</splash-texture>
     </startup>
 
     <sound>
-      <path archive="y">Aircraft/DH-106/Sounds/dh106-sound.xml</path>
+      <path archive="y">Aircraft/Comet-J/Sounds/dh106-sound.xml</path>
     </sound>
 
     <model>
-      <path archive="y">Aircraft/DH-106/Models/dh106.xml</path>
+      <path archive="y">Aircraft/Comet-J/Models/dh106.xml</path>
       <livery>
-        <file type="string">default</file>
+	<file type="string">BOAC Blue</file>
       </livery>
     </model>
 
     <multiplay>
       <chat_display>1</chat_display>
       <generic>
-        <int type="int" n="0">0</int>
-        <int type="int" n="1">0</int>
-        <int type="int" n="2">0</int>
-        <int type="int" n="3">0</int>
-        <int type="int" n="4">0</int>
-        <int type="int" n="5">0</int>
-        <float n="0" alias="/instrumentation/doors/crew/position-norm"/>
-        <float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
+	<int type="int" n="0">0</int>
+	<int type="int" n="1">0</int>
+	<int type="int" n="2">0</int>
+	<int type="int" n="3">0</int>
+	<int type="int" n="4">0</int>
+	<int type="int" n="5">0</int>
+	<float n="0" alias="/instrumentation/doors/crew/position-norm"/>
+	<float n="1" alias="/instrumentation/doors/passenger/position-norm"/>
       </generic>
     </multiplay>
 
     <help>
       <title>dh106</title>
       <key>
-        <name>d</name>
-        <desc>Open/Close door</desc>
+	<name>d</name>
+	<desc>Open/Close door</desc>
       </key>
     </help>
+
+    <!-- Flap detents -->
+    <flaps>
+      <setting>0.00</setting>
+      <setting>0.125</setting> <!-- 5 deg -->
+      <setting>0.275</setting> <!-- 11 deg (standard takeoff) -->
+      <setting>0.375</setting> <!-- 15 deg (standard takeoff)-->
+      <setting>0.5</setting>   <!-- 20 deg -->
+      <setting>0.7</setting>   <!-- 28 deg (standard landing) -->
+      <setting>1.00</setting>  <!-- 40 deg (standard landing) -->
+    </flaps>
 
     <menubar include="Dialogs/dh106-menu.xml"/>
 
   </sim>
- 
-  <input>
-    <keyboard include="Nasal/dh106-keyboard.xml"/>
-  </input>
- 
-  <nasal>
-    <doors>
-      <file>Aircraft/DH-106/Nasal/doors.nas</file>
-    </doors>
-    <dh106>
-      <file>Aircraft/DH-106/Nasal/light.nas</file>
-      <file>Aircraft/DH-106/Nasal/liveries.nas</file>
-<!--  <file>Aircraft/DH-106/Nasal/immat.nas</file> -->
-    </dh106>
-  </nasal>
-   
+
+	<systems>
+		<autopilot>
+			<path>Aircraft/Comet-J/Systems/JWOCKY_SYS7_autopilot.xml</path>
+			<!-- path>Aircraft/victor/Systems/Autopilot.xml</path -->
+		</autopilot>
+	</systems>
+
+	<input>
+		<keyboard include="Nasal/dh106-keyboard.xml"/>
+	</input>
+  
+	<!-- Initial values for autopilot SYS7 -->
+	<autopilot>
+		<settings>
+			<kts-mach-select>kts</kts-mach-select>
+		</settings>
+	</autopilot>
+
+	<nasal>
+		<doors>
+			<file>Aircraft/Comet-J/Nasal/doors.nas</file>
+		</doors>
+		<dh106>
+			<file>Aircraft/Comet-J/Nasal/light.nas</file>
+			<file>Aircraft/Comet-J/Nasal/liveries.nas</file>
+			<!--  <file>Aircraft/Comet-J/Nasal/immat.nas</file> -->
+		</dh106>
+	</nasal>
+
 </PropertyList>

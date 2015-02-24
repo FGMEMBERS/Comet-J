@@ -6,7 +6,7 @@
 
   <nasal>
     <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/DH-106/Models/Liveries", 10);
+      var livery_update = aircraft.livery_update.new("Aircraft/Comet-J/Models/Liveries", 10);
 
       var self = cmdarg();
 
@@ -172,12 +172,12 @@
   <!-- Une ombre pour OSG -->
   <model>
     <name>shadowOSG</name>
-    <path>Aircraft/DH-106/Models/shadow.xml</path>
+    <path>Aircraft/Comet-J/Models/shadow.xml</path>
   </model>
 
   <!-- Interieur -->
   <model>
-    <path>Aircraft/DH-106/Models/Interior/interior.xml</path>
+    <path>Aircraft/Comet-J/Models/Interior/interior.xml</path>
     <offsets>
       <x-m> 0 </x-m>
       <y-m> 0 </y-m>
@@ -188,7 +188,7 @@
   <!-- Effets sur le sol -->
   <!-- Roue avant -->
   <model>
-    <path>Aircraft/DH-106/Models/Effects/ground/ground0.xml</path>   
+    <path>Aircraft/Comet-J/Models/Effects/ground/ground0.xml</path>   
     <offsets>
       <x-m> -15.733 </x-m>
       <y-m>   0.000 </y-m>
@@ -198,7 +198,7 @@
 
   <!-- Roue gauche -->
   <model>
-    <path>Aircraft/DH-106/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m> -0.346 </x-m>
       <y-m> -4.120 </y-m>
@@ -208,7 +208,7 @@
 
   <!-- Roue droite -->
   <model>
-    <path>Aircraft/DH-106/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m> -0.346 </x-m>
       <y-m>  4.120 </y-m>
@@ -218,7 +218,7 @@
 
   <!-- Flamme -->
   <model>
-    <path>Aircraft/DH-106/Models/Effects/flammes/flamme.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/flammes/flamme.xml</path>
     <offsets>
       <x-m>  4.497 </x-m>
       <y-m> -3.861 </y-m>
@@ -230,7 +230,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/flammes/flamme.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/flammes/flamme.xml</path>
     <offsets>
       <x-m>  3.818 </x-m>
       <y-m> -2.850 </y-m>
@@ -242,7 +242,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/flammes/flamme.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/flammes/flamme.xml</path>
     <offsets>
       <x-m>  3.818 </x-m>
       <y-m>  2.850 </y-m>
@@ -254,7 +254,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/flammes/flamme.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/flammes/flamme.xml</path>
     <offsets>
       <x-m>  4.497 </x-m>
       <y-m>  3.861 </y-m>
@@ -267,7 +267,7 @@
 
   <!-- Particules OSG -->
   <model>
-    <path>Aircraft/DH-106/Models/Effects/trail/trail.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/trail/trail.xml</path>
     <offsets>
       <x-m>  4.497 </x-m>
       <y-m> -3.861 </y-m>
@@ -279,7 +279,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/trail/trail.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/trail/trail.xml</path>
     <offsets>
       <x-m>  3.818 </x-m>
       <y-m> -2.850 </y-m>
@@ -288,7 +288,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/trail/trail.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/trail/trail.xml</path>
     <offsets>
       <x-m>  3.818 </x-m>
       <y-m>  2.850 </y-m>
@@ -297,7 +297,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/trail/trail.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/trail/trail.xml</path>
     <offsets>
       <x-m>  4.497 </x-m>
       <y-m>  3.861 </y-m>
@@ -306,7 +306,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/smoke/smoke.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/smoke/smoke.xml</path>
     <offsets>
       <x-m>  4.497 </x-m>
       <y-m> -3.861 </y-m>
@@ -315,7 +315,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/smoke/smoke.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/smoke/smoke.xml</path>
     <offsets>
       <x-m>  3.818 </x-m>
       <y-m> -2.850 </y-m>
@@ -324,7 +324,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/smoke/smoke.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/smoke/smoke.xml</path>
     <offsets>
       <x-m>  3.818 </x-m>
       <y-m>  2.850 </y-m>
@@ -333,7 +333,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/smoke/smoke.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/smoke/smoke.xml</path>
     <offsets>
       <x-m>  4.497 </x-m>
       <y-m>  3.861 </y-m>
@@ -342,7 +342,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>   3.943 </x-m>
       <y-m> -16.787 </y-m>
@@ -351,7 +351,7 @@
   </model>
 
   <model>
-    <path>Aircraft/DH-106/Models/Effects/tiptrail/tiptrail.xml</path>
+    <path>Aircraft/Comet-J/Models/Effects/tiptrail/tiptrail.xml</path>
     <offsets>
       <x-m>  3.943 </x-m>
       <y-m> 16.787 </y-m>

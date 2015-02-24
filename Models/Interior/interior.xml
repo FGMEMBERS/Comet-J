@@ -28,7 +28,7 @@
 
   <!-- Pilote -->
   <model>
-    <path>Aircraft/DH-106/Models/Pilot/pilot.xml</path>
+    <path>Aircraft/Comet-J/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m> -16.659 </x-m>
       <y-m>  -0.426 </y-m>
@@ -38,7 +38,7 @@
 
   <!-- Tableau de bord -->
   <model>
-    <path>Aircraft/DH-106/Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/Comet-J/Models/Interior/Panel/panel.xml</path>
     <offsets>
       <x-m> -17.316 </x-m>
       <y-m>   0.000 </y-m>

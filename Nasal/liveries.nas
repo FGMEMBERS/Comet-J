@@ -1,3 +1,3 @@
-aircraft.livery.init("Aircraft/DH-106/Models/Liveries");
+aircraft.livery.init("Aircraft/Comet-J/Models/Liveries");
 
 
